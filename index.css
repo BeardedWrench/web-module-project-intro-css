@@ -1,0 +1,148 @@
+/*
+Import fonts
+*/
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Chelsea+Market&display=swap');
+/*
+CSS Reset
+*/
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+/*
+Start Custom CSS
+*/
+*{
+    box-sizing: border-box; 
+ }
+
+body, button{
+    font-family: 'Roboto Mono', monospace;
+    font-size: 16px;
+}
+header h1{
+    font-family: 'Chelsea Market', cursive;
+    font-size:4rem;
+    margin-bottom:5%; 
+}
+header img{
+    width:300px;
+    border-radius: 200px;
+}
+nav{
+    text-align:center;
+    width: 100%;
+    margin-top:2%;
+}
+nav button{
+    height:70px;  
+    width: 160px;
+    margin-left:100px;
+    border-radius: 15px;
+    text-decoration: none;
+    font-size: 1.3rem;
+    color: #FFFFFF;
+    border:none;
+}
+section.about{
+    margin-bottom:6%;
+    margin-top:5%;
+    text-align:center;
+}
+.heading-image{
+    width: 16%;
+    display:inline-block;
+}
+.header-info{
+    display:inline-block;
+    width: 35%;
+    font-size: 1.5rem;
+}
+.header-info p{
+    margin-bottom:30px;
+}
+bold{
+    font-weight: bold;
+}
+section.intro{
+    background-color: #DDB9A3;
+    color: #FFFFFF;
+    width: 90%;
+    margin: auto;
+    padding: 30px;
+    font-size: 1.5rem;
+    line-height: 1.5;
+    text-align: center;
+}
+section.intro p:last-child{
+    margin-top:20px;
+}
+section.tips{
+    text-align: center;
+    width:15%;
+    margin:auto;
+    margin-top:5%;
+}
+section.tips img{
+    width:150px;
+    margin-bottom:5%;
+}
+button.orange{
+    background-color: #FF764E;
+}
+button.yellow{
+    background-color: #FFCD69;
+}
+button.blue{
+    background-color: #5ED3EB;
+}
+footer{
+    background-color: #F9E7DC;
+    padding-bottom:2%;
+    margin-top:5%;
+}
+.footer_image{
+    background-color:red;
+    background: url("./assets/footer_img.jpg" ) 0 25%/cover;
+    height:350px;
+}
